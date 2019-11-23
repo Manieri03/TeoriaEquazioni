@@ -5,5 +5,6 @@ namespace EquazioniLibrary
     public class Equazioni
     {
 
+
     }
 }
