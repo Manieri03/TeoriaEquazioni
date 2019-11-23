@@ -6,8 +6,13 @@ namespace EquazioniLibrary.Test
     public class EquazioniTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void Determined()
         {
+            double a = 3;
+            
+            bool rispostaasp = true;
+            bool risposta = Equazioni.IsDetermined(a);
+            Assert.AreEqual(rispostaasp, risposta);
 
         }
     }
