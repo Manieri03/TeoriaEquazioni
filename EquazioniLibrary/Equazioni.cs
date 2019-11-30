@@ -40,11 +40,11 @@ namespace EquazioniLibrary
         }
         public static string EquationDegree1(double a ,double b)
         {
-            if (a == 0 || b == 0)
+            if (a == 0 && b == 0)
             {
                 return "Indeterminato";
             }
-            if (a != 0 || b == 0)
+            if (a == 0 && b != 0)
             {
                 return "Impossibile";
             }
@@ -52,7 +52,7 @@ namespace EquazioniLibrary
             
             return risultato.ToString(); 
         }
-
+     
 
     }
 }
